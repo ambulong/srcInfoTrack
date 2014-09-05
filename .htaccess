@@ -1,0 +1,9 @@
+
+# BEGIN TOOLS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /ti
+RewriteRule ^auth/(.*?)$ api.php?authid=$1
+</IfModule>
+
+# END TOOLS

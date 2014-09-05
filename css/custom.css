@@ -1,0 +1,128 @@
+body{
+	background: #fbfbfb;
+	font-size: 14px;
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.cunstom_panel{
+	padding: 13px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+}
+
+.custom_input{
+	padding: 3px;
+	margin: 3px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.custom_input_big{
+	padding: 3px;
+	margin: 3px;
+	font-weight: 200;
+	font-size: 24px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.well_bgwhite{
+	background: #fbfbfb;
+}
+
+.td_url{
+	max-width: 600px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: normal;
+}
+
+.table_td_fontsmaller td{
+	font-size:smaller;
+}
+
+.btn-group>.btn-mini+.dropdown-toggle{
+	height: 22px;
+	margin-top: -1px;
+}
+
+.proj_input{
+	margin:0 3px;
+}
+
+.track_info_div_detail td{
+	font-size:smaller;
+	max-width:700px;
+	word-break: break-all;
+}
+/*
+a:link {color:rgb(41, 112, 166);text-decoration:none;}
+a:visited {color:rgb(41, 112, 166);text-decoration:none;}
+a:hover {color:rgb(41, 112, 166);text-decoration:underline;}
+a:active {color:rgb(41, 112, 166);text-decoration:none;}  
+*/
+#login_panel{
+	width: 360px;
+	padding: 114px 0 0;
+	margin: auto;
+}
+
+#login_panel_info{
+	margin-left:13px;
+}
+
+#login_panel_loading_img{
+	border:none;
+}
+#login_panel table{
+	border:none;
+}
+
+#login_panel td{
+	padding:8px 13px;
+}
+
+#main_panel{
+	width:1300px;
+	margin:50px auto;
+}
+
+#main_panel_menu{
+	width:230px; 
+	padding: 8px 0;
+	margin:8px 0 0 0;
+	float:left;
+}
+#main_panel_menu a{
+	padding:3px 0px;
+}
+#main_panel_content{
+	width:1000px; 
+	padding: 8px 13px 8px 3px;
+	margin:0 0 0 15px;
+	float:left;
+}
+#project_info_div{
+	width:1000px; 
+}
+
+#tools_div select{
+	margin:5px 0 0 0;
+}
+#tools_div .btn-toolbar{
+	margin:3px 13px 0 0;
+}
+
+#project_info_edit select,#project_info_edit input,#project_info_edit textarea{
+	margin:0;
+}
+#project_info_edit button,#new_project button,#project_info_div button{
+	margin:3px 5px;
+}
+#view_proj_info_img img{
+	max-height:140px;
+	max-width:140px;
+	border:none;
+}
